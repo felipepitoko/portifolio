@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+
+  --color-brand-bg: #0b1326;
+  --color-brand-indigo: #494bd6;
+  --color-brand-emerald: #00a572;
+  --color-brand-surface: #131b2e;
+  --color-brand-outline: #464554;
+  --color-brand-text: #dae2fd;
+  --color-brand-text-dim: #c7c4d7;
+}
+
+@layer base {
+  body {
+    @apply bg-brand-bg text-brand-text font-sans selection:bg-brand-indigo/30;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display tracking-tight;
+  }
+}
+
+.mesh-bg {
+  background-image: 
+      radial-gradient(at 0% 0%, rgba(73, 75, 214, 0.15) 0px, transparent 50%),
+      radial-gradient(at 100% 0%, rgba(0, 165, 114, 0.1) 0px, transparent 50%);
+}
+
+.glass-panel {
+  @apply bg-brand-surface/70 backdrop-blur-xl border border-brand-outline/50;
+}
+
+.python-gradient {
+  background: linear-gradient(135deg, var(--color-brand-indigo) 0%, var(--color-brand-emerald) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

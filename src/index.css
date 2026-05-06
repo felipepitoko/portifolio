@@ -15,6 +15,9 @@
 }
 
 @layer base {
+  html {
+    scroll-behavior: smooth;
+  }
   body {
     @apply bg-brand-bg text-brand-text font-sans selection:bg-brand-indigo/30;
   }

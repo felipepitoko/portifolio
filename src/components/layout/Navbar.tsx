@@ -12,7 +12,7 @@ export function Navbar() {
     <header className="fixed top-0 z-50 w-full border-b border-white/5 bg-slate-950/80 backdrop-blur-xl">
       <nav className="mx-auto flex h-16 max-w-7xl items-center justify-between px-8">
         <div className="font-display text-xl font-bold tracking-tighter text-brand-indigo">
-          DevArchitect
+          Dev&Lead
         </div>
         
         <div className="hidden gap-8 font-display text-sm tracking-tight md:flex">
@@ -31,9 +31,11 @@ export function Navbar() {
           <button className="text-brand-text-dim transition-colors hover:text-brand-indigo">
             <Terminal size={20} />
           </button>
-          <Button size="sm" className="rounded-lg py-2">
-            Currículo
-          </Button>
+          <a href="/assets/curriculo_dev_set_2025.pdf" target="_blank" rel="noopener noreferrer">
+            <Button size="sm" className="rounded-lg py-2">
+              Currículo
+            </Button>
+          </a>
         </div>
       </nav>
     </header>

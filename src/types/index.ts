@@ -19,4 +19,5 @@ export interface Skill {
   name: string;
   iconName: string; // Referência para o ícone
   color: string;
+  singleColor?: string;
 }

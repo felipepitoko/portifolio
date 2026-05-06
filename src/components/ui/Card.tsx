@@ -25,7 +25,7 @@ export function Card({ children, className }: CardProps) {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       className={cn(
-        'group relative overflow-hidden rounded-2xl border border-brand-outline/30 bg-brand-surface/40 transition-all duration-500 hover:border-brand-indigo/50',
+        'group relative flex flex-col overflow-hidden rounded-2xl border border-brand-outline/30 bg-brand-surface/40 transition-all duration-500 hover:border-brand-indigo/50',
         className
       )}
     >

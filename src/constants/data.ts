@@ -48,7 +48,7 @@ export const PROJECTS: Project[] = [
     description: 'Aplicação para gerar simulações e análises de equipamentos em ambiente marítimo - matemática aplicada.',
     // Python, Pandas, Boto3 (AWS) e PostgreSQL
     developerSkills: [SKILLS[0], SKILLS[18], SKILLS[6], SKILLS[13]],
-    image: 'public/eng_naval.png',
+    image: '/eng_naval.png',
     size: 'small'
   },
   {

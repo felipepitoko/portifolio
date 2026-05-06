@@ -261,7 +261,7 @@ export default function Home() {
               </div>
               <div className="h-80 w-64 shrink-0 overflow-hidden rounded-2xl border border-brand-outline/30 grayscale transition-all duration-700 hover:grayscale-0">
                 <img
-                  src="/assets/felipe-jobs.png"
+                  src="/felipe-jobs.png"
                   alt="Felipe Costa"
                   className="h-full w-full object-cover"
                 />

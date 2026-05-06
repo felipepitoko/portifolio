@@ -44,11 +44,11 @@ export const SKILLS: Skill[] = [
 export const PROJECTS: Project[] = [
   {
     id: '9',
-    title: 'Plataforma de engenharia mecânica',
-    description: 'Aplicação para gerar simulações e análises de equipamentos mecânicos em ambiente marítimo - matemática aplicada.',
+    title: 'Plataforma de engenharia submarina',
+    description: 'Aplicação para gerar simulações e análises de equipamentos em ambiente marítimo - matemática aplicada.',
     // Python, Pandas, Boto3 (AWS) e PostgreSQL
     developerSkills: [SKILLS[0], SKILLS[18], SKILLS[6], SKILLS[13]],
-    image: '/assets/eng_naval.png',
+    image: 'public/eng_naval.png',
     size: 'small'
   },
   {
@@ -57,7 +57,7 @@ export const PROJECTS: Project[] = [
     description: 'Um agente de IA que enriquece leads e os classifica, gerando comunicações personalizadas e posicionamento estratégico na esteira comercial.',
     // Python, LangChain, FastAPI e Boto3 (AWS)
     developerSkills: [SKILLS[0], SKILLS[17], SKILLS[9], SKILLS[19]],
-    image: '/assets/analitica.png',
+    image: '/analitica.png',
     size: 'small'
   },
   {
@@ -66,7 +66,7 @@ export const PROJECTS: Project[] = [
     description: 'Aplicação completa para cadastro e acompanhamento de equipamentos via RFID - configuração de antenas, áreas físicas de interesse, alerta e contagem de equipamentos.',
     // Python, Node-RED, PostgreSQL e Django
     developerSkills: [SKILLS[0], SKILLS[22], SKILLS[13], SKILLS[10]],
-    image: '/assets/rfid.png',
+    image: '/rfid.png',
     size: 'small'
   },
   {
@@ -75,7 +75,7 @@ export const PROJECTS: Project[] = [
     description: 'Uma plataforma de coleta (scapping) de processos e geração de leads.',
     // Python, SQLAlchemy, PostgreSQL e Pandas
     developerSkills: [SKILLS[0], SKILLS[15], SKILLS[13], SKILLS[18]],
-    image: '/assets/juridico.png',
+    image: '/juridico.png',
     size: 'small'
   },   
   {
@@ -84,7 +84,7 @@ export const PROJECTS: Project[] = [
     description: 'Um portal para pagamento de dívidas de protesto. Incluiu a comunicação com os devedores e acompanhamento do estado das dívidas.',
     // TypeScript, NestJS, NextJS e PostgreSQL
     developerSkills: [SKILLS[2], SKILLS[8], SKILLS[6], SKILLS[13]],
-    image: '/assets/cartorio.png',
+    image: '/cartorio.png',
     size: 'small'
   },
   {
@@ -93,7 +93,7 @@ export const PROJECTS: Project[] = [
     description: 'Aplicativo que classifica processos jurídicos, gera e acompanha pedidos de certidões cartorais.',
     // Python, NestJS e PostgreSQL
     developerSkills: [SKILLS[0], SKILLS[8], SKILLS[13]],
-    image: '/assets/certidao.png',
+    image: '/analitica.png',
     size: 'small'
   },
   {
@@ -102,7 +102,7 @@ export const PROJECTS: Project[] = [
     description: 'Diversos aplicativos para hospitais e clínicas. Requisição e acompanhamento de exames, consultas e procedimentos.',
     // Python, React, PostgreSQL e Boto3 (AWS)
     developerSkills: [SKILLS[0], SKILLS[7], SKILLS[13], SKILLS[19]],
-    image: '/assets/saude.png',
+    image: '/saude.png',
     size: 'small'
   },
   {
@@ -111,7 +111,7 @@ export const PROJECTS: Project[] = [
     description: 'Portais de órgãos da administração pública.',
     // Python, Django, React e Boto3 (AWS)
     developerSkills: [SKILLS[0], SKILLS[10], SKILLS[7], SKILLS[19]],
-    image: '/assets/publico.png',
+    image: '/publico.png',
     size: 'small'
   },
   {
@@ -120,7 +120,7 @@ export const PROJECTS: Project[] = [
     description: 'Sistema para identificação e inventariado de equipemantos mecânicos - usado em órgão público.',
     // Python, LangChain (IA para imagens), PostgreSQL e Boto3 (AWS)
     developerSkills: [SKILLS[0], SKILLS[17], SKILLS[13], SKILLS[19]],
-    image: '/assets/inventario.png',
+    image: '/inventario.png',
     size: 'small'
   },
 ];

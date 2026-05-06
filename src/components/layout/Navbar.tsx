@@ -31,7 +31,7 @@ export function Navbar() {
           <button className="text-brand-text-dim transition-colors hover:text-brand-indigo">
             <Terminal size={20} />
           </button>
-          <a href="/assets/curriculo_dev_set_2025.pdf" target="_blank" rel="noopener noreferrer">
+          <a href="/curriculo_dev_set_2025.pdf" target="_blank" rel="noopener noreferrer">
             <Button size="sm" className="rounded-lg py-2">
               Currículo
             </Button>
